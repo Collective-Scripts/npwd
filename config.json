@@ -93,7 +93,7 @@
   },
   "debug": {
     "level": "error",
-    "enabled": false,
+    "enabled": true,
     "sentryEnabled": true
   },
   "defaultContacts": [],
