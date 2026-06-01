@@ -10,12 +10,12 @@
     "exportFunction": "generateNumber"
   },
   "general": {
-    "useResourceIntegration": false,
+    "useResourceIntegration": true,
     "toggleKey": "f1",
-    "toggleCommand": "phone",
+    "toggleCommand": "",
     "defaultLanguage": "en",
     "showId": false,
-    "phoneNumberFormat": "/(\\d{3})(\\d{3})(\\d{4})/"
+    "phoneNumberFormat": "/(\\d{8})"
   },
   "contacts": {
     "frameworkPay": false,
@@ -92,17 +92,17 @@
     "homepageUrl": "https://docs.fivemanage.com"
   },
   "debug": {
-    "level": "error",
+    "level": "silly",
     "enabled": true,
     "sentryEnabled": true
   },
   "defaultContacts": [],
   "disabledApps": [],
-  "apps": [],
+  "apps": ["npwd_qb_banking"],
   "voiceMessage": {
-    "enabled": false,
+    "enabled": true,
     "authorizationHeader": "Authorization",
-    "url": "https://api.fivemanage/api/audio",
+    "url": "https://api.fivemanage.com/api/audio",
     "returnedDataIndexes": ["url"]
   }
 }
