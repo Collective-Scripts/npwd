@@ -92,7 +92,7 @@
     "homepageUrl": "https://docs.fivemanage.com"
   },
   "debug": {
-    "level": "silly",
+    "level": "error",
     "enabled": true,
     "sentryEnabled": true
   },
